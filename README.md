@@ -1,4 +1,4 @@
-# BME3053C-RatGang, Tricep Surae MRI Image Analysis 
+# BME3053C-Rat Gang, Tricep Surae MRI Image Analysis 
 ## Background and Purpose
 This repository is designed for work in Dr Otzel's lab at the Veterans Hospital. The lab's research revolves around testing the effects of a compound on muscle mass in rats with incomplete spinal cord injuries. This involves scanning the rat and determining the volume of the muscle, in this case the tricep surae. The easiest way to do this is take the cross sectional area of multiple slices and multiply by thickness and sum. The current SOP for Tricep Surae segmentation is provided in the respository involves completing over 192 segmentations per file as each slice must be hand annotated. This program specifically is a segmentation tool with semi-automatic capabilties.The goal for this program is to reduced time taken for segmentation by interpolating the segmentations in between the beginning and end slice of the region of interest.
 ## Usage
